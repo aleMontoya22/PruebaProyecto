@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import RandomPokemon from './archivo'; 
 
 function App() {
   return (
@@ -11,13 +12,16 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://reactjs.org"s
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a>        
       </header>
+      <main>
+        <RandomPokemon />
+      </main>
     </div>
   );
 }
